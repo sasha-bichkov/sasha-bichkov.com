@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sasha Bichkov</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="flip.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <main id="main">
+    <div id="main-cover" class="main accelerate">
+      <div class="main__overlay"></div>
+      <section class="about about-short about-center">
+        <h1 class="about-short__name">
+          <span class="first-name">Sasha</span> <span class="last-name">Bichkov</span>
+        </h1>
+        <p class="about-short__subtitle">
+          Passionate <strong>front-end engineer</strong>
+        </p>
+
+        <div class="about_buttons">
+          <button class="about_button about_cv">CV</button>
+          <button class="about_button about_blog">Blog &raquo;</button>
+        </div>
+      </section>
+    </div>
+
+    <section class="about about-block about-toolchain">
+      <h2 class="about-toolchain__header">Toolchain</h2>
+
+      <div class="toolchain__list"> <!-- TOOLCHAIN LIST -->
+        <div class="flip-container flip-react" ontouchstart="this.classList.toggle('hover');"> <!-- REACT -->
+          <div class="flipper">
+            <div class="front">
+              <div class="front__logo">
+                <img src="./logo/react.png" alt="React" title="React" class="front__logo__img">
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__header"><strong>React</strong></div>
+              <p class="back__description">
+                A javascript library for building user interface.
+              </p>
+            </div>
+          </div>
+        </div> <!-- END REACT -->
+        <div class="flip-container flip-flux" ontouchstart="this.classList.toggle('hover');"> <!-- FLUX -->
+          <div class="flipper">
+            <div class="front">
+              <div class="front__logo">
+                <img src="./logo/flux.png" alt="Flux" title="Flux" class="front__logo__img">
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__header"><strong>Flux</strong></div>
+              <p class="back__description">
+                Flux is the application architecture that Facebook uses for building client-side web applications. It complements React's composable view components by utilizing a unidirectional data flow. It's more of a pattern rather than a formal framework.
+              </p>
+            </div>
+          </div>
+        </div> <!-- END FLUX -->
+        <div class="flip-container flip-redux" ontouchstart="this.classList.toggle('hover');"> <!-- REDUX -->
+          <div class="flipper">
+            <div class="front">
+              <div class="front__logo">
+                <img src="./logo/redux.png" alt="Redux" title="Redux" class="front__logo__img">
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__header"><strong>Redux</strong></div>
+              <p class="back__description">
+                Redux is a predictable state container for JavaScript apps.
+
+                It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time traveling debugger.
+              </p>
+            </div>
+          </div>
+        </div> <!-- END REDUX -->
+        <div class="flip-container flip-webpack" ontouchstart="this.classList.toggle('hover');"> <!-- WEBPACK -->
+          <div class="flipper">
+            <div class="front">
+              <div class="front__logo">
+                <img src="./logo/webpack.png" alt="Webpack" title="Webpack" class="front__logo__img">
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__header">Webpack</div>
+              <p class="back__description">
+                Webpack is a module bundler. <br />
+                Webpack takes modules with dependencies and generates static assets representing those modules.
+              </p>
+            </div>
+          </div>
+        </div> <!-- END WEBPACK -->
+        <div class="flip-container flip-backbone" ontouchstart="this.classList.toggle('hover');"> <!-- BACKBONE -->
+          <div class="flipper">
+            <div class="front">
+              <div class="front__logo">
+                <img src="./logo/backbone.jpg" alt="Backbone" title="Backbone" class="front__logo__img">
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__header">Backbone</div>
+              <p class="back__description">
+                Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.
+              </p>
+            </div>
+          </div>
+        </div> <!-- END BACKBONE -->
+        <div class="flip-container flip-marionette" ontouchstart="this.classList.toggle('hover');"> <!-- MARIONETTE -->
+          <div class="flipper">
+            <div class="front">
+              <div class="front__logo">
+                <img src="./logo/marionette.png" alt="Marionette" title="Marionette" class="front__logo__img">
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__header">Marionette</div>
+              <p class="back__description">
+                Marionette simplifies your Backbone application code with robust views and architecture solutions.
+              </p>
+            </div>
+          </div>
+        </div> <!-- END MARIONETTE -->
+        <div class="flip-container flip-chaplin" ontouchstart="this.classList.toggle('hover');"> <!-- CHAPLIN -->
+          <div class="flipper">
+            <div class="front">
+              <div class="front__logo">
+                <img src="./logo/chaplin.jpg" alt="Chaplin" title="Chaplin" class="front__logo__img">
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__header">Chaplin</div>
+              <p class="back__description">
+                Chaplin is an architecture for JavaScript applications using the Backbone.js library. Chaplin addresses Backbone’s limitations by providing a lightweight and flexible structure that features well-proven design patterns and best practices.
+              </p>
+            </div>
+          </div>
+        </div> <!-- END CHAPLIN -->
+        <div class="flip-container flip-gulp" ontouchstart="this.classList.toggle('hover');"> <!-- GULP -->
+          <div class="flipper">
+            <div class="front">
+              <div class="front__logo">
+                <img src="./logo/gulp.png" alt="Gulp" title="Gulp" class="front__logo__img">
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__header">Gulp</div>
+              <p class="back__description">
+                Build system automating tasks: minification and copying of all JavaScript files, static images, capable of watching files to automatically rerun the task when a file was changed.
+              </p>
+            </div>
+          </div>
+        </div> <!-- END GULP -->
+        <div class="flip-container flip-postcss" ontouchstart="this.classList.toggle('hover');"> <!-- POSTCSS -->
+          <div class="flipper">
+            <div class="front">
+              <div class="front__logo">
+                <img src="./logo/postcss.jpg" alt="Postcss" title="Postcss" class="front__logo__img">
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__header">Postcss</div>
+              <p class="back__description">
+                PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.
+              </p>
+            </div>
+          </div>
+        </div> <!-- END POSTCSS -->
+        <div class="flip-container flip-ubuntu" ontouchstart="this.classList.toggle('hover');"> <!-- UBUNTU -->
+          <div class="flipper">
+            <div class="front">
+              <div class="front__logo">
+                <img src="./logo/ubuntu.png" alt="Ubuntu" title="Ubuntu" class="front__logo__img">
+              </div>
+            </div>
+            <div class="back">
+              <div class="back__header">Ubuntu (Linux)</div>
+              <p class="back__description">
+                Ubuntu is an open source software platform that runs everywhere from the smartphone, the tablet and the PC to the server and the cloud.
+              </p>
+            </div>
+          </div>
+        </div> <!-- END UBUNTU -->
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
